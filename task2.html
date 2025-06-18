@@ -1,44 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <style>
+    .animated-button {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .animated-button:hover {
+      background-color: #0056b3;
+      box-shadow: 0 0 15px 5px #007bff;
+    }
+  </style>
 </head>
 <body>
-    <h1>HTML Form Solution</h1>
-    <form>
-        <label for="name">Full Name:</label>
-        <br>
-        <input type="text" required placeholder="Enter your full name">
-        <br><br>
-        <label for="Email">Email:</label>
-        <br>
-        <input type="email" required placeholder="Enter your email">
-        <br><br>
-        <label for="pass">Password:</label>
-        <br>
-        <input type="password" required minlength="6" placeholder="Enter your password">
-        <br><br>
-        <label for="gender">Gender:</label>
-        <br>
-        <input type="radio" name="gender" value="male">
-        <label for="male">Male</label>
-        <br>
-        <input type="radio" name="gender" id="female">
-        <label for="female">Female</label>
-        <br>
-        <input type="radio" name="gender" value="other">
-        <label for="other">Other</label>
-        <br><br>
-        <label for="con">Country:</label>
-        <select name="con" id="place">
-            <option value="default">Select Country</option>
-            <option value="in">India</option>
-            <option value="us">United States</option>
-        </select>
-        <br><br>
-        <button type="submit">Submit</button>
-    </form>
+
+  <button class="animated-button">Hover Me!</button>
+
 </body>
 </html>
