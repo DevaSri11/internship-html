@@ -1,7 +1,5 @@
-
-let x=5;
-let y=10;
-console.log(add(x,y));
-function add(){
-    return x+y;
+function calBMI(weight,height){
+    let bmi=Math.round(weight/(height*height));
+    console.log(`BMI value is ${bmi}`);
 }
+calBMI(65,1.8);
