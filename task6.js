@@ -10,5 +10,5 @@ function calBMI(weight,height){
         return `Your BMI is ${bmi}, so you are overweight.`
     }
 }
-let val=calBMI(60,1.7);
+let val=calBMI(65,1.8);
 console.log(val)
